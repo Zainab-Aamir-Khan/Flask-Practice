@@ -13,7 +13,7 @@ def about_page():
 def services_page():
     return "<h1>This is a service page</h1>"
 
-@app.route('/contact')
-def contact_page();
-    return
+@app.route('/contact/)
+def contact_page():
+    return f'<h1>This is the contact page of {username}</h1>'
 
