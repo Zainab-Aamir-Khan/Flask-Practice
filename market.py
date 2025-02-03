@@ -17,3 +17,7 @@ def services_page():
 def contact_page(username):
     return f'<h1>This is the contact page of {username}</h1>'
 
+@app.route('/shop/<market>')
+def shop_page(market):
+    return f'<h1>This is a {market} of a beauty products</h1>'
+
