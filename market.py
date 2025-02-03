@@ -8,3 +8,7 @@ def hello_world():
 @app.route('/about')
 def about_page():
     return "<h1>This is an about page!!!</h1>"
+
+@app.route('/services')
+def services_page():
+    return "<h1>This is a service page</h1>"
