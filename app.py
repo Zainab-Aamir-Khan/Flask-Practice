@@ -7,3 +7,6 @@ def homePage():
     return render_template('home.html')
 
 
+@app.route('/market')
+def marketPage():
+    return render_template('market.html')
