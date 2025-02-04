@@ -23,4 +23,4 @@ def shop_page(market):
 
 @app.route('/carts')
 def cart_page():
-    return "this is a cart' section"
+    return "<h1>This is a cart' section</h1>"
