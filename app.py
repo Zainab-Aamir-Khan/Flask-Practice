@@ -9,4 +9,4 @@ def homePage():
 
 @app.route('/market')
 def marketPage():
-    return render_template('market.html')
+    return render_template('market.html', item_name= 'Phone')
