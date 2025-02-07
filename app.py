@@ -6,7 +6,7 @@ db = SQLALchemy(app)
 class Item(db.Model):
     name =db.Column(db.String(length = 30), nullable = False, unique = True )
     price =db.Column(db.Integer(), nullable = False)
-    barcode = db.Column(db.Integer(length = 12), nullable = False)
+    barcode = db.Column(db.Integer(length = 12), nullable = False, unique = True)
 
 
 @app.route('/')  #Decorator
